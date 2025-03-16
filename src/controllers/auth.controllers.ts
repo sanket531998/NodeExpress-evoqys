@@ -75,3 +75,5 @@ export const me = async (req: ExtendedRequest, res: Response) => {
   // const { password, ...detailsWithoutPassword } = req?.user;
   res.json(req?.user);
 };
+
+
